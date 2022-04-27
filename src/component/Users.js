@@ -10,7 +10,7 @@ const DUMMY_USERS = [
 ];
 
 const Users = () => {
-  const [showUsers, setShowUsers] = useState(true);
+  const [showUsers, setShowUsers] = useState(false);
 
   const toggleUsersHandler = () => {
     setShowUsers((curState) => !curState);
